@@ -15,7 +15,7 @@ if [ -e "$FILE" ]; then
         echo "$FILE is a writable."
     fi
     if [ -x "$FILE" ]; then
-        echo "$FILE is an executable."
+        echo "$FILE is an executable/searchable."
     fi
 else
     echo "$FILE doesn't exist."
